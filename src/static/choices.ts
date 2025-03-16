@@ -1,13 +1,9 @@
 import Party from './parties'
+import { ElecType } from './types'
+import Private from './private'
 
-enum ElecType {
-  Local = 0,
-  European = 1,
-  President = 2,
-  Parliamentary = 3,
-}
-
-export default [
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const dummy = [
   {
     year: 2025,
     type: ElecType.President,
@@ -34,3 +30,5 @@ export default [
     elections: [{ party: Party.PiS, person: 'Ojciec Rydzyk', comment: '' }],
   },
 ]
+
+export default Private
