@@ -31,4 +31,4 @@ const dummy = [
   },
 ]
 
-export default Private
+export default dummy
